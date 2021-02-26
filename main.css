@@ -28,8 +28,11 @@ html,
 body {
   font-family: 'Archivo Narrow', sans-serif;
   height: 100%;
-  background: rgb(37,37,37);
-  background: radial-gradient(circle, rgba(37,37,37,1) 0%, rgba(22,22,22,1) 100%);
+  background: url(grobar.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
